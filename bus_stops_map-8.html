@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c26f7f13cae9be69c0c46ceb8045f27d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c26f7f13cae9be69c0c46ceb8045f27d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c26f7f13cae9be69c0c46ceb8045f27d = L.map(
+                "map_c26f7f13cae9be69c0c46ceb8045f27d",
+                {
+                    center: [20.6006819, -100.376255],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_05e897fb7feaf4d01ec73b40ffb2ee83 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_05e897fb7feaf4d01ec73b40ffb2ee83.addTo(map_c26f7f13cae9be69c0c46ceb8045f27d);
+        
+    
+            var marker_6a20cc0ae31c46fddb11ce7d8480eb96 = L.marker(
+                [20.63973725388764, -100.43027937260587],
+                {
+}
+            ).addTo(map_c26f7f13cae9be69c0c46ceb8045f27d);
+        
+    
+            var icon_4cb8129318df018fbbf2973c5dcec3b6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6a20cc0ae31c46fddb11ce7d8480eb96.setIcon(icon_4cb8129318df018fbbf2973c5dcec3b6);
+        
+    
+        var popup_4c0be2d6ddd5b377256f6b205d7310a3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_08c44acc7f48cdcd7c2ee7e809dc7a94 = $(`<div id="html_08c44acc7f48cdcd7c2ee7e809dc7a94" style="width: 100.0%; height: 100.0%;">Estación Corporativo Santander</div>`)[0];
+                popup_4c0be2d6ddd5b377256f6b205d7310a3.setContent(html_08c44acc7f48cdcd7c2ee7e809dc7a94);
+            
+        
+
+        marker_6a20cc0ae31c46fddb11ce7d8480eb96.bindPopup(popup_4c0be2d6ddd5b377256f6b205d7310a3)
+        ;
+
+        
+    
+    
+            var marker_844e2019a82b83d3b4a2b99d878b8891 = L.marker(
+                [20.618748004824432, -100.42165406029287],
+                {
+}
+            ).addTo(map_c26f7f13cae9be69c0c46ceb8045f27d);
+        
+    
+            var icon_1f4c89ef082a35630a5f051517727381 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_844e2019a82b83d3b4a2b99d878b8891.setIcon(icon_1f4c89ef082a35630a5f051517727381);
+        
+    
+        var popup_0b49157c06951dca35f66ab4010e7123 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_41330f079bca32048ce068f8b703c0f4 = $(`<div id="html_41330f079bca32048ce068f8b703c0f4" style="width: 100.0%; height: 100.0%;">Estación Obrera</div>`)[0];
+                popup_0b49157c06951dca35f66ab4010e7123.setContent(html_41330f079bca32048ce068f8b703c0f4);
+            
+        
+
+        marker_844e2019a82b83d3b4a2b99d878b8891.bindPopup(popup_0b49157c06951dca35f66ab4010e7123)
+        ;
+
+        
+    
+    
+            var marker_1f20685c9b706201818ae49c7b717086 = L.marker(
+                [20.583440809600546, -100.40603220443892],
+                {
+}
+            ).addTo(map_c26f7f13cae9be69c0c46ceb8045f27d);
+        
+    
+            var icon_e8abe51b688439454f33fd3d1b1e6bde = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1f20685c9b706201818ae49c7b717086.setIcon(icon_e8abe51b688439454f33fd3d1b1e6bde);
+        
+    
+        var popup_4e5cb3b93e3c474c70f51d4a575bd583 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f43f53243fbfb7b23083d76310107969 = $(`<div id="html_f43f53243fbfb7b23083d76310107969" style="width: 100.0%; height: 100.0%;">Estación IMSS No.1 Zaragoza</div>`)[0];
+                popup_4e5cb3b93e3c474c70f51d4a575bd583.setContent(html_f43f53243fbfb7b23083d76310107969);
+            
+        
+
+        marker_1f20685c9b706201818ae49c7b717086.bindPopup(popup_4e5cb3b93e3c474c70f51d4a575bd583)
+        ;
+
+        
+    
+    
+            var marker_7f83ba1fcdb78c814e7d7eb24fb4a3ac = L.marker(
+                [10.224351142314319, -67.33784434553989],
+                {
+}
+            ).addTo(map_c26f7f13cae9be69c0c46ceb8045f27d);
+        
+    
+            var icon_aa3df9a1c00c654024a618ff24c83f81 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7f83ba1fcdb78c814e7d7eb24fb4a3ac.setIcon(icon_aa3df9a1c00c654024a618ff24c83f81);
+        
+    
+        var popup_a332fa19ca0ddefae396f50bb3606fe3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c38cefa3df82852dc10c6717b245a85 = $(`<div id="html_3c38cefa3df82852dc10c6717b245a85" style="width: 100.0%; height: 100.0%;">Estación Plaza de Toros</div>`)[0];
+                popup_a332fa19ca0ddefae396f50bb3606fe3.setContent(html_3c38cefa3df82852dc10c6717b245a85);
+            
+        
+
+        marker_7f83ba1fcdb78c814e7d7eb24fb4a3ac.bindPopup(popup_a332fa19ca0ddefae396f50bb3606fe3)
+        ;
+
+        
+    
+    
+            var marker_be7a699a8cfed866e440705ecb2ee2ec = L.marker(
+                [20.53271251437492, -100.44949808465377],
+                {
+}
+            ).addTo(map_c26f7f13cae9be69c0c46ceb8045f27d);
+        
+    
+            var icon_95c4d14dc1893a99c6c7ba629749ba73 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_be7a699a8cfed866e440705ecb2ee2ec.setIcon(icon_95c4d14dc1893a99c6c7ba629749ba73);
+        
+    
+        var popup_efd824898065d129192a92c7de41f76d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_584f75d8685c9ec5c10127be229bd641 = $(`<div id="html_584f75d8685c9ec5c10127be229bd641" style="width: 100.0%; height: 100.0%;">Estación Terminal Balvanera</div>`)[0];
+                popup_efd824898065d129192a92c7de41f76d.setContent(html_584f75d8685c9ec5c10127be229bd641);
+            
+        
+
+        marker_be7a699a8cfed866e440705ecb2ee2ec.bindPopup(popup_efd824898065d129192a92c7de41f76d)
+        ;
+
+        
+    
+    
+            var marker_888b06ad7a16989497428b7c8ae45a37 = L.marker(
+                [20.5891381430116, -100.3848279154769],
+                {
+}
+            ).addTo(map_c26f7f13cae9be69c0c46ceb8045f27d);
+        
+    
+            var icon_caa062fa6061d290ab16d0d0aa112fbb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_888b06ad7a16989497428b7c8ae45a37.setIcon(icon_caa062fa6061d290ab16d0d0aa112fbb);
+        
+    
+        var popup_37d5cf74bf6319e861cf09f271b38ec1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9897d89ba33fc3fe9033ec10c8a481be = $(`<div id="html_9897d89ba33fc3fe9033ec10c8a481be" style="width: 100.0%; height: 100.0%;">Estación Alamedas</div>`)[0];
+                popup_37d5cf74bf6319e861cf09f271b38ec1.setContent(html_9897d89ba33fc3fe9033ec10c8a481be);
+            
+        
+
+        marker_888b06ad7a16989497428b7c8ae45a37.bindPopup(popup_37d5cf74bf6319e861cf09f271b38ec1)
+        ;
+
+        
+    
+    
+            var marker_61f295c12ec3e4bfaad401a885a213ea = L.marker(
+                [20.57788235148404, -100.35941343471347],
+                {
+}
+            ).addTo(map_c26f7f13cae9be69c0c46ceb8045f27d);
+        
+    
+            var icon_c681377850afe6ff8827c2b43af2e66c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_61f295c12ec3e4bfaad401a885a213ea.setIcon(icon_c681377850afe6ff8827c2b43af2e66c);
+        
+    
+        var popup_b0dd586d94a1b5181928ce658fe8e371 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_578238fa8ad0aacaa35168bfb02d3d18 = $(`<div id="html_578238fa8ad0aacaa35168bfb02d3d18" style="width: 100.0%; height: 100.0%;">Estación Terminal de Autobuses</div>`)[0];
+                popup_b0dd586d94a1b5181928ce658fe8e371.setContent(html_578238fa8ad0aacaa35168bfb02d3d18);
+            
+        
+
+        marker_61f295c12ec3e4bfaad401a885a213ea.bindPopup(popup_b0dd586d94a1b5181928ce658fe8e371)
+        ;
+
+        
+    
+    
+            var marker_9be65961ac6ceed44b0027200e637dc2 = L.marker(
+                [20.647168814450563, -100.34420276922222],
+                {
+}
+            ).addTo(map_c26f7f13cae9be69c0c46ceb8045f27d);
+        
+    
+            var icon_a18ff6040bf38c9a1778b9010ab40166 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9be65961ac6ceed44b0027200e637dc2.setIcon(icon_a18ff6040bf38c9a1778b9010ab40166);
+        
+    
+        var popup_d44242d79e0ee04a9da4be10937d62b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1dcb35f74bff8e89e0399f8648795b36 = $(`<div id="html_1dcb35f74bff8e89e0399f8648795b36" style="width: 100.0%; height: 100.0%;">Estación La Pradera</div>`)[0];
+                popup_d44242d79e0ee04a9da4be10937d62b2.setContent(html_1dcb35f74bff8e89e0399f8648795b36);
+            
+        
+
+        marker_9be65961ac6ceed44b0027200e637dc2.bindPopup(popup_d44242d79e0ee04a9da4be10937d62b2)
+        ;
+
+        
+    
+    
+            var marker_6c3665465ccd5afa9862097009ad7f35 = L.marker(
+                [20.61519385854569, -100.38992484127387],
+                {
+}
+            ).addTo(map_c26f7f13cae9be69c0c46ceb8045f27d);
+        
+    
+            var icon_13afc12f2324c9da621ddbf7bcc62f1c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6c3665465ccd5afa9862097009ad7f35.setIcon(icon_13afc12f2324c9da621ddbf7bcc62f1c);
+        
+    
+        var popup_caf95c34af89149868e945725622511c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_13f0dfc75c7b6010af16dfd530c2ae09 = $(`<div id="html_13f0dfc75c7b6010af16dfd530c2ae09" style="width: 100.0%; height: 100.0%;">Estación Plaza del Parque</div>`)[0];
+                popup_caf95c34af89149868e945725622511c.setContent(html_13f0dfc75c7b6010af16dfd530c2ae09);
+            
+        
+
+        marker_6c3665465ccd5afa9862097009ad7f35.bindPopup(popup_caf95c34af89149868e945725622511c)
+        ;
+
+        
+    
+    
+            var marker_70d064fdb14921f5885f85689a2ee948 = L.marker(
+                [20.590660676144697, -100.33590344352145],
+                {
+}
+            ).addTo(map_c26f7f13cae9be69c0c46ceb8045f27d);
+        
+    
+            var icon_1ec3b525b02ae43f1813a35e11863ba1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_70d064fdb14921f5885f85689a2ee948.setIcon(icon_1ec3b525b02ae43f1813a35e11863ba1);
+        
+    
+        var popup_0926bce258990153cf119832b66622ee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d003939925c2e2432210ec162efdc702 = $(`<div id="html_d003939925c2e2432210ec162efdc702" style="width: 100.0%; height: 100.0%;">Estación Mirador</div>`)[0];
+                popup_0926bce258990153cf119832b66622ee.setContent(html_d003939925c2e2432210ec162efdc702);
+            
+        
+
+        marker_70d064fdb14921f5885f85689a2ee948.bindPopup(popup_0926bce258990153cf119832b66622ee)
+        ;
+
+        
+    
+    
+            var marker_faa24fa94a3600b11955db709f199d79 = L.marker(
+                [20.74058661616075, -100.44236183412214],
+                {
+}
+            ).addTo(map_c26f7f13cae9be69c0c46ceb8045f27d);
+        
+    
+            var icon_edba31d952b0f1e6d26f4b6188b985ee = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_faa24fa94a3600b11955db709f199d79.setIcon(icon_edba31d952b0f1e6d26f4b6188b985ee);
+        
+    
+        var popup_a3405b213a932016b6c21e326db3ac19 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0392ce2b2039fa55454d1ac6d22156e7 = $(`<div id="html_0392ce2b2039fa55454d1ac6d22156e7" style="width: 100.0%; height: 100.0%;">Estación Santa Rosa</div>`)[0];
+                popup_a3405b213a932016b6c21e326db3ac19.setContent(html_0392ce2b2039fa55454d1ac6d22156e7);
+            
+        
+
+        marker_faa24fa94a3600b11955db709f199d79.bindPopup(popup_a3405b213a932016b6c21e326db3ac19)
+        ;
+
+        
+    
+    
+            var marker_c1100f2aac4d3bc3597cdeaf403b6ef3 = L.marker(
+                [20.63313253790114, -100.46324991839572],
+                {
+}
+            ).addTo(map_c26f7f13cae9be69c0c46ceb8045f27d);
+        
+    
+            var icon_c70788499783a8a0bccd24bc27c330fd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c1100f2aac4d3bc3597cdeaf403b6ef3.setIcon(icon_c70788499783a8a0bccd24bc27c330fd);
+        
+    
+        var popup_7ba8cb67d6f620fca6048bb88e1975ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a00c4a9bf97aa5371dbe44ad3967ef56 = $(`<div id="html_a00c4a9bf97aa5371dbe44ad3967ef56" style="width: 100.0%; height: 100.0%;">Estación Toltecas</div>`)[0];
+                popup_7ba8cb67d6f620fca6048bb88e1975ea.setContent(html_a00c4a9bf97aa5371dbe44ad3967ef56);
+            
+        
+
+        marker_c1100f2aac4d3bc3597cdeaf403b6ef3.bindPopup(popup_7ba8cb67d6f620fca6048bb88e1975ea)
+        ;
+
+        
+    
+</script>
+</html>
